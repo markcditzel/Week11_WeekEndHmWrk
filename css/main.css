@@ -1,5 +1,14 @@
+#top-header {
+  color:red;
+  text-align: center;
+}
+
 body {
   font-family: Futura;
+  background-color: darkgrey;
+}
+
+background {
 }
 
 #pylon-list {
@@ -7,5 +16,37 @@ body {
   /* grid-template-columns: 2fr 1f; */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   /* grid-template-columns: repeat(auto-fit, minmax(500px, 2fr) minmax(500px, 1fr)); */
+  padding: 10px;
+  background-color:white;
+  margin: 25px;
+}
+
+label {
+  padding: 10px;
+}
+
+input {
+  padding: 10px;
+}
+
+.form-item {
+padding: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+#save-button {
+  padding: 10px;
+  width: 100px;
+}
+
+div {
+  padding: 10px;
+}
+
+form {
+
   padding: 10px;
 }

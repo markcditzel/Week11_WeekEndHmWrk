@@ -8,6 +8,7 @@
   </head>
 
   <body>
+    <h1 id = "top-header">Gotta See Them All</h1>
     <form id="new-pylon-form">
       <div id="form-wrapper">
         <div class="form-item">
@@ -17,7 +18,7 @@
 
         <div class="form-item">
           <label for="year" class="primary">PylonYear</label>
-          <input type="text" id="year" required/>
+          <input type="number" id="year" required/>
         </div>
 
         <div class="form-item">
@@ -30,10 +31,10 @@
           </select>
         </div>
       </div>
-      <input type="submit" value="Save yer Pylons"/>
+      <input id="save-button" type="submit" value="Save yer Pylons"/>
     </form>
 
-    <button id="delete-all">Delete All Entries</button>
+    <button id="delete-all">Delete yer Pylons</button>
 
     <h1>Top Pylon Spots</h1>
     <div id="pylon-list"></div>
