@@ -1,10 +1,11 @@
 body {
-  font-family: Palatino;
+  font-family: Futura;
 }
 
-#reading-list {
+#pylon-list {
   display: grid;
   /* grid-template-columns: 2fr 1f; */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   /* grid-template-columns: repeat(auto-fit, minmax(500px, 2fr) minmax(500px, 1fr)); */
+  padding: 10px;
 }
